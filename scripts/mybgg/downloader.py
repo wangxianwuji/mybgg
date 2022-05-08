@@ -84,7 +84,7 @@ class Downloader():
             expansion["expansions_collection"]  = []
             expansion_data_by_id[expansion["id"]] = expansion
 
-        expansion_data_by_id = custom_expansion_mappings(expansion_data_by_id)
+        #expansion_data_by_id = custom_expansion_mappings(expansion_data_by_id)
 
         for expansion_data in expansion_data_by_id.values():
             if is_promo_box(expansion_data):
