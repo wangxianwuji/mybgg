@@ -118,13 +118,13 @@ GitHub Pages_. Select your master branch as Source, and click Save.
 2. **Fetch the latest changes** from the mybgg project:
 
    ```
-   git fetch upstream
+   git fetch extra
    ```
 
 3. **Merge the changes you fetched** with the changes you made to your project locally:
 
    ```
-   git merge upstream/master
+   git merge extra/master
    ```
 
 4. **Update to the latest version of all external libraries** that mybgg uses internally. They can update between versions.
