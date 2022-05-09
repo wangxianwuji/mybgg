@@ -10,10 +10,10 @@
         }
     },
     "algolia": {
-        "app_id": "3OJXTBO1DY",
-        "api_key_search_only": "2b0f6a9ab527d88aa83f04f0199511a5",
-        "index_name": "boardgame",
-        "hits_per_page": 48,
+        "app_id": "KVMWFF2XAA",
+        "api_key_search_only": "8ce3db9a4d11df6120986e79588d9079",
+        "index_name": "bgg",
+        "hits_per_page": 60,
         "sort_by": "desc(rating)"
     }
 }
