@@ -12,7 +12,7 @@
     "algolia": {
         "app_id": "KVMWFF2XAA",
         "api_key_search_only": "8ce3db9a4d11df6120986e79588d9079",
-        "index_name": "boardgame",
+        "index_name": "bgg",
         "hits_per_page": 48,
         "sort_by": "desc(rating)"
     }
