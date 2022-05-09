@@ -150,7 +150,7 @@ class BGGClient:
                     xml.string("version/item/thumbnail", required=False, alias="image_version"),
                     xml.string("version/item/name",  required=False, alias="version_name"),
                     xml.integer("version/yearpublished", attribute="value", alias="version_year", required=False),
-                    xml.integer("version/item/link[@type='boardgamepublisher']", attribute="objectid", required=False, alias="publisher_id"),
+                    xml.integer("version/item/link[@type='boardgamepublisher']", attribute="id", required=False, alias="publisher_id"),
                     xml.string("comment", required=False, alias="comment"),
                     xml.string("wishlistcomment", required=False, alias="wishlist_comment"),
                     xml.string("status", attribute="lastmodified", alias="last_modified"),

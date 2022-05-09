@@ -35,7 +35,7 @@ class Indexer:
                 'families.name',
                 'reimplements.name',
                 'reimplementedby.name',
-                'integrates.name',
+                'integrates.name','publisherID',
             ],
             'attributesForFaceting': [
                 'searchable(categories)',
@@ -48,7 +48,7 @@ class Indexer:
                 'playing_time',
                 'searchable(previous_players)',
                 'numplays',
-                'searchable(year)',
+                'searchable(year)','publisherid',
             ],
             'customRanking': ['asc(name)'],
             'highlightPreTag': '<strong class="highlight">',
@@ -266,7 +266,7 @@ class Indexer:
             game["designers"] = self._minimize_field(game, "designers")
             game["publishers"] = self._minimize_field(game, "publishers")
             game["artists"] = self._minimize_field(game, "artists")
-
+            #game["publisherid"] = self._minimize_field(game, "publisher")
             # Make sure description is not too long
             game["description"] = self._prepare_description(game["description"])
 
