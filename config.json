@@ -11,7 +11,7 @@
     },
     "algolia": {
         "app_id": "KVMWFF2XAA",
-        "api_key_search_only": "8ce3db9a4d11df6120986e79588d9079",
+        "api_key_search_only": "638aa440449cfa7469beeed219461eb2",
         "index_name": "bgg",
         "hits_per_page": 60,
         "sort_by": "desc(rating)"
